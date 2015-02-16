@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 2.5)
 
 PROJECT (hello)
 INSTALL(FILES COPYRIGHT README DESTINATION share/doc/cmake/install_test)
