@@ -1,0 +1,5 @@
+project(main)
+add_subdirectory(hello)
+aux_source_directory(. dir_srcs)
+add_executable(main ${dir_srcs})
+target_link_libraries(main hello)

@@ -1,0 +1,7 @@
+#set(executable_output_path ${PROJECT_BINARY_DIR}/bin)
+#set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+aux_source_directory(. dir_hello_srcs)
+#add_library(hello SHARED ${dir_hello_srcs})
+add_library(hello ${dir_hello_srcs})
