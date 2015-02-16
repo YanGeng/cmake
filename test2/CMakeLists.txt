@@ -1,2 +1,0 @@
-PROJECT (hello)
-ADD_SUBDIRECTORY(src)
